@@ -91,8 +91,8 @@ toc: true
 
 ## 四、附录
 
-![省图导航](http://192.168.1.67:7791/i/2025/06/21/6856ac57c7c6e.png)
+![省图导航](https://cdn.ganfan.fun:8888/i/2025/06/21/6856ac57c7c6e.png)
 ‍
-![贵guui(skp)](http://192.168.1.67:7791/i/2025/06/21/6856bcf2cd5e0.jpg)
+![贵guui(skp)](https://cdn.ganfan.fun:8888/i/2025/06/21/6856bcf2cd5e0.jpg)
 
-![山将军·酸辣湘西菜(汉街万达店)](http://192.168.1.67:7791/i/2025/06/21/6856bf1da49db.png)
+![山将军·酸辣湘西菜(汉街万达店)](https://cdn.ganfan.fun:8888/i/2025/06/21/6856bf1da49db.png)
