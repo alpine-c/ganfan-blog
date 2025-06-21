@@ -206,15 +206,15 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: ture
   text:
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+    - img: /img/wx.png
+      link:
+      text: wechat
+    - img: /img/zfb.png
+      link:
+      text: alipay
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -284,10 +284,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://blog.ganfan.fun
   card_announcement:
-    enable: true
-    content: This is my Blog
+    enable: false
+    content: 
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -387,7 +387,7 @@ darkmode:
   end:
 
 # Show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
