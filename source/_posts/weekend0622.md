@@ -3,7 +3,10 @@ title: '6月22日遛娃活动基本安排'
 date: '2025-06-18 10:41:53'
 updated: '2025-06-21 12:57:24'
 comments: true
-toc: true
+top_img: https://cdn.ganfan.fun:8888/i/2025/06/21/6856d49c40a03.jpg
+cover: https://cdn.ganfan.fun:8888/i/2025/06/21/6856d49c40a03.jpg
+
+
 ---
 
 ## 一、活动概况
