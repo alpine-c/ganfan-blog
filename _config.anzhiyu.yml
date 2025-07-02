@@ -9,8 +9,8 @@ menu:
   #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
   #   留言板: /comments/ || anzhiyu-icon-envelope
 
-  # 我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
+  我的:
+    音乐馆: /music/ || anzhiyu-icon-music
   #   追番页: /bangumis/ || anzhiyu-icon-bilibili
   #   相册集: /album/ || anzhiyu-icon-imageshex
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
@@ -29,13 +29,13 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog.anheyu.com/
+          link: https://blog.ganfan.fun/
           icon: /img/favicon.ico
     - title: 项目
       item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+        - name: 图床
+          link: https://cdn.ganfan.fun:8888/
+          icon: /img/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -75,14 +75,14 @@ author_status:
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+    - 🤖️ 数码科技爱好者
+    - 🔍 分享与热心帮助
+    - 🏠 智能家居小能手
+    - 🔨 设计开发一条龙
+    - 🤝 专修交互与设计
+    - 🏃 脚踏实地行动派
+    - 🧱 团队小组发动机
+    - 💢 壮汉人狠话不多
 
 # search (搜索)
 # see https://blog.anheyu.com/posts/c27d.html#搜索系统
@@ -234,7 +234,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 武汉
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -246,10 +246,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: https://cdn.ganfan.fun:8888//i/2025/07/02/6864d9df047a7.png
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: https://cdn.ganfan.fun:8888//i/2025/07/02/6864da0ac11f1.png
       link:
       text: 支付宝
 
@@ -444,9 +444,6 @@ footer:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
-      - link: https://blog.anheyu.com/
-        shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
-        message: 本站使用AnZhiYu主题
       # - link: https://www.dogecloud.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
       #   message: 本站使用多吉云为静态资源提供CDN加速
@@ -528,14 +525,14 @@ footer:
       enable: false
       link: /copyright
     linkList:
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
-      # - link: https://image.anheyu.com
-      #   text: 图床
+      # - link: https://blog.ganfan.fun
+      #   text: 博客
+      - link: https://cdn.ganfan.fun:8888/
+        text: 图床
       # - link: https://beian.miit.gov.cn/
       #   text: 湘ICP备-xxxxxxx号
     subTitle:
-      enable: false
+      enable: true
       # Typewriter Effect (打字效果)
       effect: true
       # Effect Speed Options (打字效果速度参数)
@@ -553,7 +550,7 @@ footer:
       source: 1
       # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
       sub:
-        # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
+        - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
 
 # Analysis
 # --------------------------------------
@@ -708,7 +705,7 @@ activate_power_mode:
 
 # Mouse click effects: fireworks (鼠标点击效果: 烟火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -734,7 +731,7 @@ display_mode: light
 
 # Beautify (美化页面显示)
 beautify:
-  enable: true
+  enable: false
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
@@ -1054,18 +1051,18 @@ home_top:
   subTitle: 万物可爱。
   siteText: anheyu.com
   category:
-    - name: 前端
-      path: /categories/前端开发/
+    - name: 遛娃
+      path: /categories/遛娃/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 大学
-      path: /categories/大学生涯/
+    - name: 阅读
+      path: /categories/阅读/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/生活日常/
+    - name: 学习
+      path: /categories/学习/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
@@ -1075,10 +1072,10 @@ home_top:
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: 新品主题
-    title: Theme-AnZhiYu
+    tips: 7月6号活动
+    title: 月湖水上乐园
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://docs.anheyu.com/
+    link: https://sy.ganfan.fun:8888
 
 # 朋友圈配置
 friends_vue:
@@ -1148,7 +1145,7 @@ ptool:
   share_mobile: true
   share_weibo: true
   share_copyurl: true
-  categories: false # 是否显示分类
+  categories: true # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
 
 # 欢迎语配置

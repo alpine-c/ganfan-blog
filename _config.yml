@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '朝闻道'
+title: '今朝'
 subtitle: '今日事,今日毕'
 description: ''
 keywords:
 author: Alpine
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -103,3 +103,10 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false
+
